@@ -1,0 +1,81 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 25px 15px 25px 15px;
+}
+
+header {
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  color: #6af68f;
+  font-weight: 300;
+  line-height: 1.3;
+  text-align: center;
+}
+
+h3 {
+  font-family: sans-serif;
+  color: #01cbfe;
+  font-weight: 300;
+}
+
+footer {
+  font-family: sans-serif;
+  text-align: end;
+  position: absolute;
+  bottom: 0;
+  width: 97%;
+  height: 60px;
+  color: #01cbfe;
+}
+
+body {
+  font-family: sans-serif;
+  color: #f700ff;
+  font-weight: 100;
+  line-height: 1.15;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+  /* Clear floats after image containers */
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+}
+
+body .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+body .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .column {
+  -webkit-box-flex: 33.33%;
+      -ms-flex: 33.33%;
+          flex: 33.33%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  body .column {
+    width: 100%;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/*# sourceMappingURL=buttonpage.css.map */
