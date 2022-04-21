@@ -8,10 +8,10 @@ html {
 header {
   font-family: sans-serif;
   font-size: 1.25rem;
-  color: #6af68f;
+  color: #d56d58;
   font-weight: 300;
   line-height: 1.3;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
@@ -26,16 +26,20 @@ footer {
   position: absolute;
   bottom: 0;
   width: 97%;
-  height: 60px;
-  color: #01cbfe;
+  height: 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #bdd2a7;
 }
 
 body {
   font-family: sans-serif;
-  color: #f700ff;
+  color: #ffb700;
   font-weight: 100;
   line-height: 1.15;
-  text-align: center;
+  text-align: left;
   display: -ms-grid;
   display: grid;
   /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -74,8 +78,37 @@ body .column {
   }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+body b {
+  color: #647453;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+  /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  /* Footer height */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img, .img:hover {
+  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
 }
 /*# sourceMappingURL=buttonpage.css.map */
