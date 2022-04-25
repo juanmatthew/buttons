@@ -29,9 +29,9 @@ footer {
   height: 0px;
 }
 
-footer a {
+a {
   text-decoration: none;
-  color: #bdd2a7;
+  color: #FFFFFF;
 }
 
 body {
@@ -108,18 +108,50 @@ body b {
   width: 50%;
 }
 
-.zoom:hover {
-  padding: 50px;
-  margin: 0 auto;
-  /* IE 9 */
-  -webkit-transform: scale(1);
-  /* Safari 3-8 */
-  transform: scale(1.15);
-  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
-          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
-  -webkit-transition: -webkit-transform 200ms ease-in-out;
-  transition: -webkit-transform 200ms ease-in-out;
-  transition: transform 200ms ease-in-out;
-  transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+img, .img:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
+
+/* for box images on button page - Gray Scale */
+.hover08 figure img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.hover08 figure:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
+
+/* for square images on button page - Flashing */
+.hover13 figure:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=buttonpage.css.map */

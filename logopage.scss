@@ -38,7 +38,7 @@ footer {
 
 body{
     font-family: sans-serif;
-    color: $darkDullolive;
+    color: $pinkYellow;
     font-weight: 100;
     line-height: 1.15;
     text-align: left;
@@ -105,6 +105,44 @@ body{
     width: 50%;
   }
 
+  img {
+        filter: drop-shadow(5px 5px 5px rgb(216, 75, 50));
+    }
+
+
+
+.grow img{
+        transition: 1s ease;
+        }
+        
+        .grow img:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s ease;
+        }
+
+ //.shadow img {
+           // transition: .5s ease;
+            //}
+            
+            //.shadow img:hover{
+            //box-shadow:
+            //1px 1px #373737,
+            //2px 2px #373737,
+            //3px 3px #373737,
+            //4px 4px #373737,
+            //5px 5px #373737,
+            //6px 6px #373737;
+            //-webkit-transform: translateX(-3px);
+            //transform: translateX(-3px);
+            //transition: .5s ease;
+            //}
+        
+
   //img, .img:hover {
   //  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
   //}
+
+
+  

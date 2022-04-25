@@ -5,10 +5,10 @@ $hotbrightPink:hsl(320, 82%, 58%);
 $muteWarmpink: hsl(345, 98%, 65%);
 $dullRed: hsl(10, 60%, 59%);
 $orange: hsl(24, 89%, 53%);
-$paleNeonpink: hsl(325, 63%, 85%);
+$paleNeonpink: rgb(241, 193, 221);
 $brightSalmon: hsl(359, 87%, 78%);
 $flatYellow: hsl(43, 100%, 50%);
-$warmYellow: hsl(39, 97%, 72%);
+$warmYellow: rgb(253, 204, 114);
 $neonYellow: hsl(66, 91%, 64%);
 $dullYellow: hsl(46, 62%, 58%);
 $palePeachyellow: hsl(61, 100%, 85%);
@@ -27,6 +27,8 @@ $dullBarbiepink: hsl(341, 50%, 69%);
 $paleBarbiepink: hsl(327, 94%, 87%);
 
 //color group1
+$paleLightPeach: rgb(245, 188, 178);
+$paleMidPeach: rgb(235, 161, 148);
 $palePeach: hsl(9, 96%, 71%);
 $darkPeach: hsl(360, 96%, 71%);
 $dullStrawberry: hsl(347, 65%, 55%);
@@ -56,11 +58,11 @@ $blueish: #5E97DD;
 
 //color group4
 $pink: #FBA1BA;
-$pinkYellow: #FD9C79;
+$pinkYellow: rgb(253, 156, 121);
 $peachPink: #FD9520;
 $darkPeachpink: #FD6749;
 $darkNeonPink: #FF1A9F;
-$mediumNeonPink: #FF1AFF;
+$mediumNeonPink: rgb(255, 26, 255);
 
 //color group5
 $darkGray: #696969;
@@ -82,9 +84,10 @@ $creamYellow: #F0D6C0;
 //color group 8
 $neonBlueishgreen: #51BC76;
 $neonLightblueishgreen: #6FCC72;
-$neonGreen: #BEEC5E;
+$neonGreen: rgb(190, 236, 94);
 $neonYellowgreen: #E9FA69;
 $gray: #918C84;
+$deepBlue: hsl(213, 69%, 5%);
 
 //Font Sizes incase we need them
 $font-sm: 0.875rem; //14px
